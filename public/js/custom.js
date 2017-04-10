@@ -138,8 +138,8 @@ $(function() {
 	$(".map").height(400);
 	function initialize($) {
 		var mapOptions = {	
-			zoom: 8,
-			center: new google.maps.LatLng(17.421306, 78.457553),
+			zoom: 15,
+			center: new google.maps.LatLng(31.210037, 121.587851),
 			disableDefaultUI: true
 		};
 		var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
